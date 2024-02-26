@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos programación WEB</title>
+    <script src="formulario.js"></script>
+    <link rel="stylesheet" href="estilosFormulario.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de gestión</h1>
+    </header>
+    <nav>
+        <lu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fomulario.html">Formulario español</a></li>
+            <li><a href="formularioEn.html">Formulario inglés</a></li>
+        </lu>
+    </nav>
+    <div id="contenido">
+        <h3>Formulario de registro</h3>
+        <div id="contenidoFormulario">
+            <form>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input type="text" id="nombreUsuario"></td>
+                    </tr>
+                    <tr>
+                        <td>Género</td>
+                        <td>
+                            <input type="radio" name="Masculino" value="Masculino">
+                            <label for="masculino">Masculino</label><br>
+                            <input type="radio" name="Femenino" value="Femenino">
+                            <label for="Femenino">Femenino</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Color de ojos
+                        </td>
+                        <td>
+                            <select id="colorOjos" name="colorOjos">
+                                <option value="Miel">Miel</option>
+                                <option value="Ambar">Ámbar</option>
+                                <option value="Gris">Gris</option>
+                                <option value="Cafe">Café</option>
+                                <option value="Negro">Negro</option>
+                                <option value="Avellana">Avellana</option>
+                                <option value="Verde">Verde</option>
+                                <option value="Azul">Azul</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Marque todo lo que corresponda
+                        </td>
+                        <td>
+                            <input type="checkbox" id="altura" name="altura" value="altura">
+                            <label for="altura"> más de 1.8 metros de altura</label><br>
+                            <input type="checkbox" id="peso" name="peso" value="peso">
+                            <label for="peso"> más de 90.7 kilogramos</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="descripcion"><p>Describe tu habilidad atlética </p><textarea rows="4" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td id="enviar" colspan="2"><input type="submit" value="Enviar mi información"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Derechos reservados &copy 2023-2024
+    </footer>
+</body>
+</html>

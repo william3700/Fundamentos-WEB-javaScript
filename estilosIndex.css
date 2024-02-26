@@ -1,0 +1,52 @@
+footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+#contenido{
+    border: 1px solid black;
+    border-radius: 1cqi;
+    position: relative;
+    width: 98%;
+    height: 400px;
+    margin: 1%;
+}
+
+section{
+    text-align: center;
+    width: 70%;
+    float: left;
+    height: 90%;
+    margin: 10px 5px;
+    background-color: white;
+}
+
+aside{
+    width: 25%;
+    float:left;
+    height: 90%;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: justify;
+    background-color: white;
+}
+
+#imagen img{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:300px){
+    #imagen img{
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

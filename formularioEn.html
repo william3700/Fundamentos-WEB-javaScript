@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos programación WEB</title>
+    <link rel="stylesheet" href="estilosFormularioEn.css">
+</head>
+<body>
+    <header>
+        <h1>Management system</h1>
+    </header>
+    <nav>
+        <lu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fomulario.html">Spanish form</a></li>
+            <li><a href="formularioEn.html">English form</a></li>
+        </lu>
+    </nav>
+    <div id="contenido">
+            <h3>Registration Form</h3>
+            <div id="contenidoFormulario">
+                <form>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Value</th>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text" id="nombreUsuario"></td>
+                        </tr>
+                        <tr>
+                            <td>Sex</td>
+                            <td>
+                                <input type="radio" name="Male" value="Male">
+                                <label for="Male">Male</label><br>
+                                <input type="radio" name="Female" value="Female">
+                                <label for="Female">Female</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Eye color
+                            </td>
+                            <td>
+                                <select id="colorOjos" name="colorOjos">
+                                    <option value="Miel">Honey</option>
+                                    <option value="Ambar">Amber</option>
+                                    <option value="Gris">Grey</option>
+                                    <option value="Cafe">Coffe</option>
+                                    <option value="Negro">Black</option>
+                                    <option value="Avellana">Hazelnut</option>
+                                    <option value="Verde">Green</option>
+                                    <option value="Azul">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Check all that apply
+                            </td>
+                            <td>
+                                <input type="checkbox" id="tall" name="tall" value="tall">
+                                <label for="tall"> Over 6 feet tall</label><br>
+                                <input type="checkbox" id="pounds" name="pounds" value="pounds">
+                                <label for="pounds"> Over 200 pounds</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="descripcion"><p>Describe your athletic ability : </p><textarea rows="4" cols="50"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td id="enviar" colspan="2"><input type="submit" value="Send my information"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+    </div>
+    <footer>
+        All rights reserved &copy 2023-2024
+    </footer>
+</body>
+</html>
